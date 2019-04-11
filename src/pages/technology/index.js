@@ -16,7 +16,6 @@ import technologyBig from "../../images/technology_big.svg";
 
 const TechnologyPage = ({ data }) => {
   const page = data.allContentfulPageTechnology.edges[0].node;
-
   return (
     <Layout>
       <SEO {...page.seo} />

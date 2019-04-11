@@ -45,7 +45,6 @@ const NewsPage = ({ data }) => {
 
   const mediumPosts = data.allMediumPost.edges;
   const highlightPost = data.allMediumPost.edges[0].node;
-
   return (
     <Layout>
       <SEO {...page.seo} />

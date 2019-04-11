@@ -17,7 +17,6 @@ import ecosystemBig from "../images/ecosystem_big.svg";
 
 const EcosystemPage = ({ data }) => {
   const page = data.allContentfulPageEcosystem.edges[0].node;
-
   return (
     <Layout>
       <SEO {...page.seo} />
