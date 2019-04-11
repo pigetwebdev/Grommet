@@ -350,14 +350,15 @@ const GetStartedPage = ({ data }) => {
         {/* Block 1 */}
         <Grid>
           <Column span={{medium:6, large: 1}} mediumOrder={1} />
-          <Column justifySelf="stretch"  span={{ medium: 10, large: 6 }} mediumOrder={4}>
+          <Column mediumSpaced span={{ medium: 8, large: 6 }} mediumOrder={4}>
             {/* <Animation file={block1Animation} /> */}
             <Image style={{width: '100%'}} src={imgGetStarted1}/>
           </Column>
-          <Column span={{medium:1}} mediumOrder={3} />
-          <Column  span={{ medium: 6, large: 4 }} mediumOrder={2}>
+          <Column span={{medium:2}} mediumOrder={3} />
+          <Column  mediumSpaced span={{ medium: 6, large: 4 }} mediumOrder={2}>
             <RichTextRenderer block={block1} />
           </Column>
+          <Column></Column>
           <Spacer />
         </Grid>
 
@@ -398,12 +399,12 @@ const GetStartedPage = ({ data }) => {
 
         {/* Block 4 */}        
         <Grid>
-          <Column span={{ medium: 9, large: 4 }}>
+          <Column mediumSpaced span={{ medium: 9, large: 4 }}>
             <RichTextRenderer block={block4} />
           </Column>
           <Column span={{ medium: 3, large: 2 }}/>
           <Column span={{ medium: 3, large: 2 }}/>
-          <Column span={{ medium: 9, large: 4,}}>
+          <Column mediumSpaced span={{ medium: 9, large: 4 }}>
             <RichTextRenderer block={block4} />
           </Column>
         </Grid>
